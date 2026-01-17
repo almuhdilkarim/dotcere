@@ -183,7 +183,7 @@
     },
 
     "power-profiles-daemon": {
-        "format": "{icon}  <small>{profile}</small>",
+        "format": "{icon}",
         "tooltip-format": "Power Profile Daemon: {profile}\nDriver: {driver}",
         "tooltip": true,
         "format-icons": {

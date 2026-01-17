@@ -32,7 +32,7 @@ tooltip {
     margin-bottom: 11px;
 }
 
-#workspaces button {a
+#workspaces button {
     color: #cdd6f4;
     margin: 0px 5px;
     min-width: 30px;
@@ -106,7 +106,7 @@ tooltip {
     margin-left: 15px;
     margin-right: 0px;
     padding-left: 15px;
-    padding-right: 5px;
+    padding-right: 7px;
     background-color: #2f354a;
     border-radius: 7px 0 0 7px;
 }
@@ -114,8 +114,27 @@ tooltip {
 #clock {
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 0;
+}
+
+#power-profiles-daemon{
+    padding-left: 10px;
+    padding-right: 15px;
     margin-right: 5px;
-    border-radius: 0 7px 7px 0;
+    background-color: #2f354a;
+    border-radius: 0px 7px 7px 0px;
+}
+
+#power-profiles-daemon.power-saver{
+    color: #a6e3a1;
+}
+
+#power-profiles-daemon.balanced{
+    color: #89b4fa;
+}
+
+#power-profiles-daemon.performance{
+    color: #e8db92;
 }
 
 #window {
@@ -232,8 +251,9 @@ window#waybar.empty #window {
 
 #battery {
     color: #89b4fa;
-    padding: 0px 10px 0px 10px;
-    border-radius: 0px 0px 0px 0px; 
+    margin-right: 10px;
+    padding: 0px 15px 0px 10px;
+    border-radius: 0px 7px 7px 0px; 
 }
 
 #battery.warning {
@@ -244,34 +264,18 @@ window#waybar.empty #window {
     color: #eba0ac;
 }
 
-#power-profiles-daemon{
-    padding: 0px 10px 0px 10px;
-    border-radius: 0px 0px 0px 0px;
-}
-
-#power-profiles-daemon.power-saver{
-    color: #a6e3a1;
-}
-
-#power-profiles-daemon.balanced{
-    color: #89b4fa;
-}
-
-#power-profiles-daemon.performance{
-    color: #e8db92;
-}
 
 #backlight {
-    color: #89b4fa;
-    margin-right: 10px;
+    color: #cba6f7;
+    background-color: #2f354a;
     padding: 0px 15px 0px 10px;
-    border-radius: 0px 7px 7px 0px;  
+    border-radius: 7px 0px 0px 7px;  
 }
 
 #bluetooth {
     color: #cba6f7;
     background-color: #2f354a;
-    padding: 0px 10px 0px 15px;
+    padding: 0px;
     border-radius:  7px 0 0 7px;
 } 
 

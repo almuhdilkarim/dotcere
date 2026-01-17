@@ -13,6 +13,7 @@
     "modules-left": [
 			"custom/appmenu",
 			"clock",
+			"power-profiles-daemon",
 			"hyprland/workspaces"
 		],
 		
@@ -43,7 +44,6 @@
 		"group/control": {
 			"orientation": "horizontal",
 			"modules":[
-				"power-profiles-daemon",
 				"backlight",
 				"bluetooth",
 				"pulseaudio",
