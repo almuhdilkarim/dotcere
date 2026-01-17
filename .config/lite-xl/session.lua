@@ -1,1 +1,1 @@
-return {recents={[1]="/home/raviza/.config"}, window={[1]=1572,[2]=816,[3]=0,[4]=0,["n"]=4}, window_mode="maximized", previous_find={[3]="swap-icon-label",[1]="margin-top",[2]="border-radius: 0px 7px 7px 0px;",[4]="sway"}, previous_replace={}}
+return {recents={[1]="/home/lost-found/.config",[2]="/home/lost-found/project/private/native/dotcere"}, window={[1]=1572,[2]=816,[3]=0,[4]=0,["n"]=4}, window_mode="maximized", previous_find={[1]="Lite",[2]="margin-top",[3]="border-radius: 0px 7px 7px 0px;",[4]="swap-icon-label",[5]="sway"}, previous_replace={}}
