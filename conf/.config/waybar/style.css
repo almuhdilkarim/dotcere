@@ -89,6 +89,7 @@ tooltip {
 #custom-wl-gammarelay-temperature,
 #pulseaudio,
 #tray,
+#custom-motrix,
 #custom-swaync {
     border: none;
     margin: 10px 0;
@@ -115,6 +116,14 @@ tooltip {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 0;
+}
+
+#custom-motrix{
+    color: #89b4fa;
+    padding-left: 10px;
+    padding-right: 0px;
+    background-color: #2f354a;
+    border-radius: 0px;
 }
 
 #power-profiles-daemon{

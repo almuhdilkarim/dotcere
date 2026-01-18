@@ -13,6 +13,7 @@
     "modules-left": [
 			"custom/appmenu",
 			"clock",
+			"custom/motrix",
 			"power-profiles-daemon",
 			"hyprland/workspaces",
 			"custom/media"
