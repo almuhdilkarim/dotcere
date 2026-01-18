@@ -14,11 +14,12 @@
 			"custom/appmenu",
 			"clock",
 			"power-profiles-daemon",
-			"hyprland/workspaces"
+			"hyprland/workspaces",
+			"custom/media"
 		],
 		
     "modules-center": [
-				"custom/media"
+				
 		],
 		
     "modules-right": [

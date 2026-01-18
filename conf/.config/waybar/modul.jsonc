@@ -38,7 +38,7 @@
                 "(.*) - Thunar": " ",
                 "class<discord>": " ",
                 "(.*) - Lite XL": "\udb80\udd68 ",
-                "(.*)Mozilla Firefox": "\uf269 ",
+                "(.*)Firefox": "\uf269 ",
                 "Steam": " ",
                 "class<org.telegram.desktop>": " ",
                 "WhatsDesk": " ",
@@ -253,7 +253,7 @@
     },
 
     "custom/media": {
-        "format": "{}",
+        "format": "<small>{}</small>",
         "escape": true,
         "return-type": "json",
         "max-length": 40,
