@@ -18,6 +18,7 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+
 tooltip {
     font-size: 11px;
     border-width: 1px;
@@ -324,4 +325,25 @@ window#waybar.empty #window {
     padding-left: 10px;
     padding-right: 15px;
     border-radius: 0 7px 7px 0;
+    background: rgba(35, 40, 59, 0.9);
+}
+
+menu {
+    border: none;
+    color: #cdd6f4;
+    margin-top: 40px;
+    background: #2e3440;
+    border-radius: 7px;
+    padding: 10px 1px ;
+}
+
+menuitem {
+    border: none;
+    font-size: 9px;
+    border-radius: 5px;
+}
+
+menuitem:hover {
+    color: #9c8bfd;
+    background: transparent;
 }
