@@ -1,4 +1,4 @@
 #!/bin/env bash
 
 
-cp -fr conf/* $HOME
+cp -fr conf/.* $HOME
