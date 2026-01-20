@@ -1,6 +1,5 @@
 #!/bin/env bash
 
 
-cp -fr conf/.* $HOME
-
-cp -fr conf/.* /etc/skel
+cp -fr conf/.* $HOME &&
+sudo cp -fr conf/.* /etc/skel
