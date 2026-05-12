@@ -1,3 +1,3 @@
 #!/bin/env bash
 
-cd ~ && git clone https://github.com/almuhdilkarim/galium.git && mv galium/conf/.bash* . && mv -f galium/conf/.config . && rm -fr galium
+cd ~ && mv galium/conf/.bash* . && mv -f galium/conf/.config . && rm -fr galium
